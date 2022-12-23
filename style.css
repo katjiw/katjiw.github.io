@@ -1,18 +1,27 @@
-.para{
-    color:darkred;
-    margin-top: 20px;
-    border: 5px solid pink;
-    padding: 10px;
-    width: 210px;
-}
-
-.para-external{
-    color:cyan;
-    background-color:steelblue;
+.image-hero{
     width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
-
-.box{
-    border: 3px solid rebeccapurple;
-    height: 60px;
-    width: 1000px;
+.title{
+    font-family: 'Raleway', sans-serif;
+}
+.subtitle{
+    letter-spacing: 10px;
+}
+#hero{
+    height: 95vh;
+}
+.text-about{
+    text-indent: 25px;
+    text-align: justify;
+}
+.image-kedua{
+    width:  150px;
+    height: 350px;
+    object-fit: scale-down;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
